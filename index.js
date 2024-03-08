@@ -43,7 +43,7 @@ app.use("/", user);
 
 
 app.get("/", (req, res) => {
-    res.send("hello there");
+    res.send("hello from the backend side...");
 })
 
 
